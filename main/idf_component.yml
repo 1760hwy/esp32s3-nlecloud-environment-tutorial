@@ -1,0 +1,4 @@
+dependencies:
+  idf: "==6.1.0"
+  k0i05/esp_type_utils: "==1.2.7"
+  espressif/mqtt: "==1.1.0"

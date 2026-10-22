@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="100%" height="100%" fill="white"/>
+<text x="65" y="81" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="39" fill="#18334c">Map cloud fields to firmware</text>
+<text x="65" y="128" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#526d80">Configuration schematic: use your own device; no real account data shown</text>
+<rect x="65" y="195" width="470" height="90" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="85" y="238" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">Cloud numeric device ID</text>
+<rect x="665" y="195" width="710" height="90" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="685" y="238" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">APP_MQTT_DEVICE_ID → username</text>
+<path d="M535,240 L665,240" fill="none" stroke="#2572a5" stroke-width="4"/>
+<polygon points="665,240 652.3937405670625,246.08951747755722 652.3937405670625,233.91048252244278" fill="#2572a5"/>
+<rect x="65" y="325" width="470" height="90" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="85" y="368" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">Device tag / chosen client identifier</text>
+<rect x="665" y="325" width="710" height="90" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="685" y="368" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">APP_MQTT_CLIENT_ID → client_id</text>
+<path d="M535,370 L665,370" fill="none" stroke="#2572a5" stroke-width="4"/>
+<polygon points="665,370 652.3937405670625,376.08951747755725 652.3937405670625,363.91048252244275" fill="#2572a5"/>
+<rect x="65" y="455" width="470" height="90" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="85" y="498" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">Device transport SecretKey</text>
+<rect x="665" y="455" width="710" height="90" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="685" y="498" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">APP_MQTT_SECRET_KEY → password</text>
+<path d="M535,500 L665,500" fill="none" stroke="#2572a5" stroke-width="4"/>
+<polygon points="665,500 652.3937405670625,506.08951747755725 652.3937405670625,493.91048252244275" fill="#2572a5"/>
+<rect x="65" y="615" width="1310" height="100" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="85" y="658" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">Topic: /sys/&lt;device-id&gt;/&lt;client-id&gt;/sensor/datas</text>
+<text x="85" y="694" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">Use the device ID, not the project ID.</text>
+<text x="65" y="805" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">Sensor API tags are case-sensitive: Temperature / Humidity / Light</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="100%" height="100%" fill="white"/>
+<text x="65" y="81" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="39" fill="#18334c">从采集到云端显示</text>
+<text x="65" y="128" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#526d80">基于源码绘制的架构示意，不是实测截图</text>
+<rect x="65" y="210" width="320" height="150" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="85" y="253" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">AHT20</text>
+<text x="85" y="289" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">温度 / 湿度</text>
+<text x="85" y="328" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">地址 0x38</text>
+<rect x="65" y="390" width="320" height="120" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="85" y="433" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">BH1750</text>
+<text x="85" y="469" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">光照 · 0x23</text>
+<rect x="500" y="250" width="360" height="170" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="520" y="293" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">ESP32-S3</text>
+<text x="520" y="329" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">I²C: SDA=8 / SCL=9</text>
+<text x="520" y="368" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">采集 → 格式化 JSON</text>
+<path d="M385,270 L500,300" fill="none" stroke="#2572a5" stroke-width="4"/>
+<polygon points="500,300 486.2648380779792,302.7102263698575 489.3390931867689,290.9255817861638" fill="#2572a5"/>
+<path d="M385,450 L500,370" fill="none" stroke="#2572a5" stroke-width="4"/>
+<polygon points="500,370 493.1289632381419,382.19790366485955 486.1739488747466,372.2000705174788" fill="#2572a5"/>
+<rect x="500" y="570" width="360" height="120" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="520" y="613" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">SSD1306 · 128 × 64</text>
+<text x="520" y="649" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">本地数值显示 · 0x3C</text>
+<path d="M680,420 L680,570" fill="none" stroke="#2572a5" stroke-width="4"/>
+<polygon points="680,570 673.9104825224427,557.3937405670625 686.0895174775573,557.3937405670625" fill="#2572a5"/>
+<rect x="980" y="250" width="385" height="170" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="1000" y="293" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">Wi-Fi → MQTT</text>
+<text x="1000" y="329" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">mqtt.nlecloud.com:1883</text>
+<text x="1000" y="368" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">普通鉴权 / 明文传输</text>
+<path d="M860,335 L980,335" fill="none" stroke="#2572a5" stroke-width="4"/>
+<polygon points="980,335 967.3937405670625,341.08951747755725 967.3937405670625,328.91048252244275" fill="#2572a5"/>
+<rect x="980" y="570" width="385" height="120" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="1000" y="613" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">NLECloud</text>
+<text x="1000" y="649" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">传感器数值与历史记录</text>
+<path d="M1170,420 L1170,570" fill="none" stroke="#2572a5" stroke-width="4"/>
+<polygon points="1170,570 1163.9104825224429,557.3937405670625 1176.0895174775571,557.3937405670625" fill="#2572a5"/>
+<text x="65" y="815" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">上传条件：本轮两类传感器读取成功，且 MQTT 已连接。</text>
+</svg>

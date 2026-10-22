@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="100%" height="100%" fill="white"/>
+<text x="65" y="81" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="39" fill="#18334c">Wire one shared I²C bus</text>
+<text x="65" y="128" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#526d80">Wiring schematic: power off first; verify module labels and 3.3 V compatibility</text>
+<rect x="65" y="210" width="330" height="405" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="85" y="253" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">ESP32-S3</text>
+<text x="85" y="289" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">3V3</text>
+<text x="85" y="328" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">GND</text>
+<text x="85" y="367" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">GPIO8 → SDA</text>
+<text x="85" y="406" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">GPIO9 → SCL</text>
+<rect x="560" y="210" width="250" height="220" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="580" y="253" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">AHT20</text>
+<text x="580" y="289" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">VCC / GND</text>
+<text x="580" y="328" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">SDA / SCL</text>
+<text x="580" y="367" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">0x38</text>
+<path d="M685,500 L685,430" fill="none" stroke="#098882" stroke-width="4"/>
+<polygon points="685,430 691.0895174775573,442.60625943293746 678.9104825224427,442.60625943293746" fill="#098882"/>
+<rect x="845" y="210" width="250" height="220" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="865" y="253" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">BH1750</text>
+<text x="865" y="289" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">VCC / GND</text>
+<text x="865" y="328" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">SDA / SCL</text>
+<text x="865" y="367" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">0x23</text>
+<path d="M970,500 L970,430" fill="none" stroke="#098882" stroke-width="4"/>
+<polygon points="970,430 976.0895174775573,442.60625943293746 963.9104825224427,442.60625943293746" fill="#098882"/>
+<rect x="1130" y="210" width="250" height="220" rx="16" fill="#f0f6fa" stroke="#2572a5" stroke-width="2"/>
+<text x="1150" y="253" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">SSD1306</text>
+<text x="1150" y="289" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">VCC / GND</text>
+<text x="1150" y="328" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">SDA / SCL</text>
+<text x="1150" y="367" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#18334c">0x3C</text>
+<path d="M1255,500 L1255,430" fill="none" stroke="#098882" stroke-width="4"/>
+<polygon points="1255,430 1261.0895174775571,442.60625943293746 1248.9104825224429,442.60625943293746" fill="#098882"/>
+<path d="M395,500 L1360,500" fill="none" stroke="#098882" stroke-width="4"/>
+<polygon points="1360,500 1347.3937405670624,506.08951747755725 1347.3937405670624,493.91048252244275" fill="#098882"/>
+<text x="470" y="562" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" fill="#18334c">Parallel same-name pins; common ground</text>
+<text x="470" y="614" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" fill="#18334c">Bus speed: 100 kHz · 7-bit addresses</text>
+<text x="65" y="745" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#18334c">Pull SDA / SCL up to 3.3 V; check onboard pull-ups first.</text>
+<text x="65" y="799" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" fill="#18334c">BH1750: ADDR low → 0x23; do not left-shift device addresses.</text>
+</svg>
