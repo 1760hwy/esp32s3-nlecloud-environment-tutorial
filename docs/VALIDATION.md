@@ -64,11 +64,29 @@ features. No performance, accuracy or long-term stability measurements are claim
 - `python tools/check_package.py` checks the Git publication boundary: required
   files, known credential patterns, excluded private/build paths, local Markdown
   links, heading anchors, and placeholder-only example configuration.
+- A clean local clone passed that package check. Running
+  `idf.py set-target esp32s3` without `main/app_secrets.h` failed at the intended
+  CMake guard, with instructions to copy the example. This is an expected negative
+  test, not a build failure with a configured project.
+- Two negative publication checks passed in the disposable clone: a synthetic
+  token was rejected, and a force-added ignored `.bin` was rejected. No real token
+  was used for those tests.
 - Eight PNG illustrations and eight editable SVG files were generated and
   visually reviewed for both languages. Figures are explanatory, not measured
   hardware/cloud evidence.
 - Third-party MIT and Apache-2.0 license copies were retained where supplied.
   Missing AHT20 upstream licensing is explicitly recorded in `THIRD_PARTY.md`.
+
+## GitHub publication / GitHub 发布
+
+The independent repository was created publicly at
+[1760hwy/esp32s3-nlecloud-environment-tutorial](https://github.com/1760hwy/esp32s3-nlecloud-environment-tutorial).
+The initial push exited successfully and its remote `main` hash matched local
+HEAD. An anonymous GitHub API request confirmed public visibility and a tree of
+51 files, including both READMEs and the configuration example, with no private
+header, build directory, firmware binary or vendored managed-component directory.
+Build outputs and the disposable test clone were task-generated cleanup targets;
+original project files, published source and figures are retained.
 
 ## Not verified / 未验证
 
